@@ -1,0 +1,28 @@
+{
+  "name": "storymapp",
+  "version": "1.0.0",
+  "description": "Projeto StoryMapp com Node.js, Docker e n8n",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "docker:build": "docker build -t storymapp .",
+    "docker:run": "docker run -p 3000:3000 storymapp"
+  },
+  "keywords": ["nodejs", "api", "docker", "n8n", "ai"],
+  "author": "Carlos Floriani",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "morgan": "^1.10.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  }
+} 
