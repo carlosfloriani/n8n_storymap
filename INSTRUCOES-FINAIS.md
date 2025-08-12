@@ -21,7 +21,7 @@
 Copie e cole este comando no console:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/carlosfloriani/storymapp/main/deploy-droplet.sh | bash
+curl -fsSL https://raw.githubusercontent.com/carlosfloriani/n8n_storymap/main/deploy-droplet.sh | bash
 ```
 
 **⏱️ Tempo estimado**: 5-10 minutos
@@ -32,7 +32,7 @@ Após o script terminar, execute:
 
 ```bash
 cd /opt/storymapp
-git clone https://github.com/carlosfloriani/storymapp.git .
+git clone https://github.com/carlosfloriani/n8n_storymap.git .
 ```
 
 ### 4. Deployar Aplicação
